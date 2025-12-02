@@ -1,0 +1,19 @@
+{
+  "name": "pm2-management-service",
+  "version": "1.0.0",
+  "description": "PM2 process management service with real-time log streaming",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "packageManager": "pnpm@10.16.0",
+  "dependencies": {
+    "ws": "^8.16.0",
+    "micro": "^10.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
